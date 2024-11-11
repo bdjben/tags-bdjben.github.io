@@ -14,6 +14,9 @@
         {% if site.instagram_username %}
         <a aria-label="My Instagram" target="_blank" href="https://www.instagram.com/{{ site.instagram_username }}"><i class="icon fa fa-instagram" aria-hidden="true"></i></a>
         {% endif %}
+        {% if site.phone_number %}
+        <a aria-label="My Phone" target="_blank" href="tel:{{ site.phone_number }}"><i class="icon fa fa-mobile" aria-hidden="true"></i></a>
+        {% endif %}
         {% if site.facebook_username %}
         <a aria-label="My Facebook" target="_blank" href="https://www.facebook.com/{{ site.facebook_username }}"><i class="icon fa fa-facebook" aria-hidden="true"></i></a>
         {% endif %}
@@ -33,5 +36,4 @@
         <!-- <a class="link" href="#about" data-scroll>About Me</a> -->
       </div>
   </div>
-  <a class="down" href="#about" data-scroll><i class="icon fa fa-chevron-down" aria-hidden="true"></i></a>
 </div>
