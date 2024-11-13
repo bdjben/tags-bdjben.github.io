@@ -17,6 +17,9 @@
         {% if site.phone_number %}
         <a aria-label="My Phone" target="_blank" href="tel:{{ site.phone_number }}"><i class="icon fa fa-mobile" aria-hidden="true"></i></a>
         {% endif %}
+        {% if site.cv_url %}
+        <a aria-label="My CV" target="_blank" href="{{ site.cv_url }}"><i class="icon fa fa-file-text" aria-hidden="true"></i></a>
+        {% endif %}
         {% if site.facebook_username %}
         <a aria-label="My Facebook" target="_blank" href="https://www.facebook.com/{{ site.facebook_username }}"><i class="icon fa fa-facebook" aria-hidden="true"></i></a>
         {% endif %}
